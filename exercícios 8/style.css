@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.caixa {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  position: relative;
+  overflow: hidden;
+}
+
+.conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.caixa:hover .conteudo {
+  opacity: 1;
+}
+
+h1, p {
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

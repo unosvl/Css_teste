@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #ccc;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  flex: 1;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+.conteudo {
+  margin-top: 30px;
+}
+
+.aba {
+  display: none;
+}
+
+.aba.ativa {
+  display: block;
+}
